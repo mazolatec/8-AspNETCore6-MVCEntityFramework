@@ -1,3 +1,8 @@
+﻿using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.DependencyInjection;
+using MzWebApp.Data;
+using System.Configuration;
+
 namespace MzWebApp
 {
     public class Program
@@ -6,11 +11,19 @@ namespace MzWebApp
         {
             var builder = WebApplication.CreateBuilder(args);
 
+            //           builder.Services.AddDbContext<MzWebAppContext>(options =>
+            //options.UseMysql(
+            //    builder.Configuration.GetConnectionString("MzWebAppContext") ?? 
+            //    throw new InvalidOperationException("Connection string 'MzWebAppContext' not found.")));
+            builder.Services.AddDbContext<MzWebAppContext>(options => options.UseMySql(
+                           builder.Configuration.GetConnectionString("MzWebAppContext"),
+                           Microsoft.EntityFrameworkCore.ServerVersion.Parse("8.0.31-mysql")));
+
             // Add services to the container.
             builder.Services.AddControllersWithViews();
 
             var app = builder.Build();
-
+            
             // Configure the HTTP request pipeline.
             if (!app.Environment.IsDevelopment())
             {
