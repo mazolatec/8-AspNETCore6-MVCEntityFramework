@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "PuLOCv/lFvwgA14y221WQ43TJjLAD42XH1CQteEnakU=",
+  "Hash": "GVyArJFjb/4OJkww4kQEWvuX23Ws6Joos+Po/mh9NUg=",
   "Source": "MzWebApp",
   "BasePath": "_content/MzWebApp",
   "Mode": "Default",
@@ -508,6 +508,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Identity": "D:\\CURSOS\\UDEMY\\C#COMPLETOProgramacaoOrientadaObjetosProjetos\\18-ProjetoSistemaAspNETCoreMVCEntityFramework\\MzWebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-Slate.css",
+      "SourceId": "MzWebApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\CURSOS\\UDEMY\\C#COMPLETOProgramacaoOrientadaObjetosProjetos\\18-ProjetoSistemaAspNETCoreMVCEntityFramework\\MzWebApp\\wwwroot\\",
+      "BasePath": "_content/MzWebApp",
+      "RelativePath": "lib/bootstrap/dist/css/bootstrap-Slate.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-Slate.css"
     },
     {
       "Identity": "D:\\CURSOS\\UDEMY\\C#COMPLETOProgramacaoOrientadaObjetosProjetos\\18-ProjetoSistemaAspNETCoreMVCEntityFramework\\MzWebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",

@@ -21,6 +21,10 @@
       "PackagePath": "staticwebassets\\lib\\bootstrap"
     },
     {
+      "Id": "D:\\CURSOS\\UDEMY\\C#COMPLETOProgramacaoOrientadaObjetosProjetos\\18-ProjetoSistemaAspNETCoreMVCEntityFramework\\MzWebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-Slate.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-Slate.css"
+    },
+    {
       "Id": "D:\\CURSOS\\UDEMY\\C#COMPLETOProgramacaoOrientadaObjetosProjetos\\18-ProjetoSistemaAspNETCoreMVCEntityFramework\\MzWebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
     },
